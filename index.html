@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <!-- navbar section -->
+      <section class="navbar-container">
+        <nav class="navbar navbar-expand-lg container">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="images/pngegg.png" alt="" style="width: 5rem" />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="fa-solid fa-bars"></i>
+            </button>
+            <div
+              class="nav-bar collapse navbar-collapse"
+              id="navbarSupportedContent"
+            >
+              <ul
+                style="margin: auto"
+                class="navbar-nav me-auto mb-2 mb-lg-0 d-flex gap-5"
+              >
+                <li class="nav-item">
+                  <a
+                    class="home-text nav-link text-light"
+                    aria-current="page"
+                    href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link" href="#"> Skills </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+              </ul>
+              <a class="nav-link" href="resume/CV rakib hasan.pdf">
+                <button
+                  class="down-btn btn btn-outline-success d-flex align-items-center gap-2"
+                  type="submit"
+                >
+                  Resume
+                  <i class="down-ico fa-solid fa-download hover-bg-success"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </nav>
+      </section>
+
+      <section
+        class="introduction-container row d-flex justify-content-between mt-5 py-5 container align-items-center"
+        style="width: 90%; margin: auto; min-height: 100vh"
+      >
+        <div class="introduction-text col-lg-6 mb-5 mb-lg-0">
+          <h1 style="font-size: 5rem; color: #00ffff">Hi !</h1>
+          <h1 style="font-size: 5rem; color: #00ffff">I'm Rakib Hasan</h1>
+          <h2>Web Developer || React Developer || Programmer</h2>
+          <br />
+          <br />
+          <p class="fs-5">
+            I am an enthusiastic Python developer with knowing some
+            framework for the frontend and the backend. I know Basic PHP and
+            MySQL but basically a Backend developer.
+          </p>
+
+          <br />
+
+          <div class="soci-ico d-flex align-items-center flex-wrap gap-4">
+            <i class="fa-brands fa-github fa-2x ms-2"></i>
+            <i class="fa-brands fa-linkedin fa-2x"></i>
+            <i class="fa-brands fa-youtube fa-2x"></i>
+            <a class="nav-link" href="resume/CV rakib hasan.pdf">
+              <button
+                class="down-btn btn btn-outline-success d-flex align-items-center gap-2"
+                type="submit"
+              >
+                Resume
+                <i class="down-ico fa-solid fa-download hover-bg-success"></i>
+              </button>
+            </a>
+          </div>
+        </div>
+
+        <!-- text section end here -->
+        <div class="introduction-img col-lg-6">
+          <img class="cover-img img-fluid" src="images/rakib (1).png" alt="" />
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section class="portfolio-container">
+        <h2 class="text-center">Portfolio</h2>
+        <div class="portfolio-card-container">
+          <div class="container py-4">
+            <div class="card">
+              <div class="row g-0">
+                <div class="col-lg-6">
+                  <div id="carouselExample" class="carousel slide h-100">
+                    <div class="carousel-inner h-100">
+                      <div class="carousel-item h-100">
+                        <img
+                          src="images/Div [carouselExampleAutoplaying].png"
+                          class="d-block w-100 h-100 object-fit-cover"
+                          alt="Slide 1"
+                        />
+                      </div>
+                      <div class="carousel-item h-100">
+                        <img
+                          src="images/rapid-ride-responsive-car-rental-html-5-website-template_446581-original.webp"
+                          class="d-block w-100 h-100 object-fit-cover"
+                          alt="Slide 2"
+                        />
+                      </div>
+                      <div class="carousel-item active h-100">
+                        <img
+                          src="/images/2f468b5b1f4720270b6dfecd369d49f2085a3d12e16737030bdaec2ca3f1d7f9.webp"
+                          class="d-block w-100 h-100 object-fit-cover"
+                          alt="Slide 3"
+                        />
+                      </div>
+                    </div>
+                    <button
+                      class="carousel-control-prev"
+                      type="button"
+                      data-bs-target="#carouselExample"
+                      data-bs-slide="prev"
+                    >
+                      <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                      ></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                      class="carousel-control-next"
+                      type="button"
+                      data-bs-target="#carouselExample"
+                      data-bs-slide="next"
+                    >
+                      <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                      ></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="col-lg-6">
+                  <div class="card-body">
+                    <div class="card-title d-flex gap-2 align-items-center">
+                      <h5 style="color: #00ffff" class="card-title fs-1">
+                        Online Riding System
+                      </h5>
+                      <i class="fa-solid fa-car fa-2x"></i>
+                    </div>
+                    <p class="card-text">
+                      This is an online riding website where users can sign in
+                      or create a new account to access the services. Users can
+                      browse and choose from a variety of cars and drivers based
+                      on their preferences and needs, ensuring a personalized
+                      and convenient experience. I have developed this platform
+                      using React for the frontend and Django for the backend,
+                      providing a seamless and efficient user experience.
+                    </p>
+                    <h5>
+                      <span class="badge text-bg-secondary">HTML</span>
+                      <span class="badge text-bg-secondary">CSS</span>
+                      <span class="badge text-bg-secondary">React</span>
+                      <span class="badge text-bg-secondary">Django</span>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-card-container">
+          <div class="container py-4">
+            <div class="card">
+              <div class="row g-0">
+                <div class="col-lg-6">
+                  <div id="carouselExample2" class="carousel slide h-100">
+                    <div class="carousel-inner h-100">
+                      <div class="carousel-item active h-100">
+                        <img
+                          src="images/Be-recipe-2.png"
+                          class="d-block w-100 h-100 object-fit-cover"
+                          alt="Slide 1"
+                        />
+                      </div>
+                      <div class="carousel-item h-100">
+                        <img
+                          src="images/delicious-food-menu-landing-page-template-homepage-design_631465-116.avif"
+                          class="d-block w-100 h-100 object-fit-cover"
+                          alt="Slide 2"
+                        />
+                      </div>
+                      <div class="carousel-item h-100">
+                        <img
+                          src="/images/feane-1.png"
+                          class="d-block w-100 h-100 object-fit-cover"
+                          alt="Slide 3"
+                        />
+                      </div>
+                    </div>
+                    <button
+                      class="carousel-control-prev"
+                      type="button"
+                      data-bs-target="#carouselExample2"
+                      data-bs-slide="prev"
+                    >
+                      <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                      ></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                      class="carousel-control-next"
+                      type="button"
+                      data-bs-target="#carouselExample2"
+                      data-bs-slide="next"
+                    >
+                      <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                      ></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="col-lg-6">
+                  <div class="card-body">
+                    <div class="card-title d-flex gap-2 align-items-center">
+                      <h5 style="color: #00ffff" class="card-title fs-1">
+                        Online Restaurent System
+                      </h5>
+                      <i class="fa-solid fa-utensils fa-2x"></i>
+                    </div>
+                    
+                    <p class="card-text">
+                      This is an online restaurant system where users can sign
+                      in or create a new account to explore and order delicious
+                      meals. Users can browse through a variety of restaurants,
+                      view menus, and place orders according to their
+                      preferences. I have developed this platform using React
+                      for the frontend and Django for the backend, ensuring a
+                      smooth and efficient user experience for both customers
+                      and restaurant owners.
+                    </p>
+                    <h5>
+                      <span class="badge text-bg-secondary">HTML</span>
+                      <span class="badge text-bg-secondary">CSS</span>
+                      <span class="badge text-bg-secondary">React</span>
+                      <span class="badge text-bg-secondary">Django</span>
+                      <span class="badge text-bg-secondary">Firebase</span>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <br />
+      <br />
+
+      <section class="exprience-container container">
+        <div class="row d-flex align-items-center">
+          <div class="skills col-md-6">
+            <h2>Experties:</h2>
+            <h4>
+              <span class="badge text-bg-secondary m-2">React.js</span>
+              <span class="badge text-bg-secondary m-2">Java Script</span>
+              <span class="badge text-bg-secondary m-2">Node js</span>
+              <span class="badge text-bg-secondary m-2">Firebase</span>
+              <span class="badge text-bg-secondary m-2">Expressjs</span>
+              <span class="badge text-bg-secondary m-2">HTML</span>
+              <span class="badge text-bg-secondary m-2">Bootstrap</span>
+              <span class="badge text-bg-secondary m-2">Mongo DB</span>
+            </h4>
+            <br />
+            <h2>Comfortable:</h2>
+            <h4>
+              <span class="badge text-bg-secondary m-2">SQL</span>
+              <span class="badge text-bg-secondary m-2">Redux</span>
+              <span class="badge text-bg-secondary m-2">Socket io</span>
+              <span class="badge text-bg-secondary m-2">AWS</span>
+              <span class="badge text-bg-secondary m-2">Docker</span>
+              <span class="badge text-bg-secondary m-2">Typescript</span>
+            </h4>
+
+            <br />
+            <h2>Familiar:</h2>
+            <h4>
+              <span class="badge text-bg-secondary m-2">C++</span>
+              <span class="badge text-bg-secondary m-2">Python</span>
+              <span class="badge text-bg-secondary m-2">Springboot</span>
+              <span class="badge text-bg-secondary m-2">Networking</span>
+            </h4>
+            <br />
+            <h2>Tools:</h2>
+            <h4>
+              <span class="badge text-bg-secondary m-2">Vs Code</span>
+              <span class="badge text-bg-secondary m-2">Jira</span>
+              <span class="badge text-bg-secondary m-2">Sublime Text</span>
+              <span class="badge text-bg-secondary m-2">GitHub</span>
+            </h4>
+          </div>
+
+          <div class="education col-md-6 text-center p-5">
+            <h1 style="color: #00ffff">My Education</h1>
+            B.Sc in Computer Science Engineering, (BUET)
+            <br />
+            <small>2018-2022</small>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section class="form-box container p-5">
+        <form class="row">
+          <div class="col-lg-6 mx-auto border rounded p-5">
+            <div>
+              <h2 class="text-center">Contact with Me</h2>
+              <div>
+                <label for="exampleInputEmail1" class="form-label">Name</label>
+                <input type="name" class="form-control" />
+              </div>
+              <div>
+                <label for="exampleInputEmail1" class="form-label"
+                  >Email address</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                />
+                <div id="emailHelp" class="form-text">
+                  We'll never share your email with anyone else.
+                </div>
+              </div>
+            </div>
+
+            <!-- First line -->
+
+            <div>
+              <div>
+                <label for="exampleFormControlTextarea2" class="form-label"
+                  >Message</label
+                >
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea2"
+                  rows="3"
+                ></textarea>
+              </div>
+            </div>
+
+            <div class="row p-3">
+              <button
+                style="color: rgb(40, 36, 36); background-color: #00ffff"
+                class="btn col-5 mx-auto text-wrap"
+              >
+                Send Message
+              </button>
+            </div>
+          </div>
+        </form>
+      </section>
+      <hr />
+      <section class="rights mt-5 text-center">
+        <p>Copyright © 2024 | Rakib Hasan</p>
+        <p>BUET, Bangladesh</p>
+        <div class="soci-ico d-flex justify-content-center gap-3">
+          <i class="fa-brands fa-github fa-2x"></i>
+          <i class="fa-brands fa-linkedin fa-2x"></i>
+          <i class="fa-brands fa-youtube fa-2x"></i>
+        </div>
+      </section>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
